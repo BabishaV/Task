@@ -1,0 +1,40 @@
+@font-face {
+    font-family:"SemiBold";
+    src: url(./family/SemiBold.ttf);
+}
+
+@font-face {
+    font-family:"Bold";
+    src: url(./family/Bold.ttf);
+}
+
+@font-face {
+    font-family:"Itallic";
+    src: url(./family/Itallic.ttf);
+}
+
+
+h1,
+h6 {
+    font-family: "Bold";
+    text-align: center;
+    color: blue;
+}
+
+h2, h4 {
+    font-family: "SemiBold";
+    text-align: center;
+    color: green;
+}
+
+h3, h5 {
+    font-family: "Itallic";
+    text-align: center;
+    color: red;
+}
+
+
+body {
+    background-color: rgb(232, 231, 234);
+    margin: 200px;
+}
